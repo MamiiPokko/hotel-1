@@ -15,4 +15,9 @@ class RentController extends Controller
     {
     	return view('welcome');
     }
+
+    public function getbooking()
+    {
+    	return view('page.booking');
+    }
 }

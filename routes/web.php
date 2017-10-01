@@ -19,3 +19,18 @@ Route::get('/', function () {
 
 Route::get('/rent', 'RentController@getrent');
 Route::get('/welcome', 'RentController@getwelcome');
+Route::get('/booking', 'RentController@getbooking');
+
+//pdf
+Route::get('pdf','PDFController@pdf');
+
+
+Route::get('check-connect',function(){
+ if(DB::connection()->getDatabaseName())
+ {
+ return "Yes! successfully connected to the DB: " . DB::connection()->getDatabaseName();
+ }else{
+ return 'Connection False !!';
+ }
+ 
+});

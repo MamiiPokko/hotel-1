@@ -7,6 +7,7 @@
 <link rel="shortcut icon" href="images/favicon.ico">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/slider.css">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
 <script src="js/jquery.js"></script>
 <script src="js/jquery-migrate-1.1.1.js"></script>
 <script src="js/superfish.js"></script>
@@ -67,7 +68,7 @@ $(window).load(function () {
           <li><a href="{{URL('/rent')}}">Rent Room</a></li>
           <li><a href="tours.html">Tours</a></li>
           <li><a href="blog.html">Blog</a></li>
-          <li><a href="contacts.html">Contacts</a></li>
+          <li><a href="{{URL('pdf')}}">PDF</a></li>
         </ul>
       </nav>
       <div class="clear"></div>
