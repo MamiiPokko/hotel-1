@@ -1,23 +1,23 @@
-{{URL(<!DOCTYPE html>
-<h)}}tml lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
 <title>Journey</title>
 <meta charset="utf-8">
-<link rel="icon" href="{{URL('/images/favicon.ico)}}">
-<link rel="shortcut icon" href="{{URL('/images/favicon.ico)}}">
-<link rel="stylesheet" href="{{URL('/css/style.css)}}">
-<link rel="stylesheet" href="{{URL('/css/slider.css)}}">
-<script src="{{URL('/js/jquery.js)}}"></script>
-<script src="{{URL('/js/jquery-migrate-1.1.1.js)}}"></script>
-<script src="{{URL('/js/superfish.js)}}"></script>
-<script src="{{URL('/js/sForm.js)}}"></script>
-<script src="{{URL('/js/jquery.jqtransform.js)}}"></script>
-<script src="{{URL('/js/jquery.equalheights.js)}}"></script>
-<script src="{{URL('/js/jquery.easing.1.3.js)}}"></script>
-<script src="{{URL('/js/tms-0.4.1.js)}}"></script>
-<script src="{{URL('/js/jquery-ui-1.10.3.custom.min.js)}}"></script>
-<script src="{{URL('/js/jquery.ui.totop.js)}}"></script>
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css)}}">
+<link rel="icon" href="{{URL('/images/favicon.ico')}}">
+<link rel="shortcut icon" href="{{URL('/images/favicon.ico')}}">
+<link rel="stylesheet" href="{{URL('/css/style.css')}}">
+<link rel="stylesheet" href="{{URL('/css/slider.css')}}">
+<script src="{{URL('/js/jquery.js')}}"></script>
+<script src="{{URL('/js/jquery-migrate-1.1.1.js')}}"></script>
+<script src="{{URL('/js/superfish.js')}}"></script>
+<script src="{{URL('/js/sForm.js')}}"></script>
+<script src="{{URL('/js/jquery.jqtransform.js')}}"></script>
+<script src="{{URL('/js/jquery.equalheights.js')}}"></script>
+<script src="{{URL('/js/jquery.easing.1.3.js')}}"></script>
+<script src="{{URL('/js/tms-0.4.1.js')}}"></script>
+<script src="{{URL('/js/jquery-ui-1.10.3.custom.min.js')}}"></script>
+<script src="{{URL('/js/jquery.ui.totop.js')}}"></script>
+<link rel="stylesheet" href="{{URL('/path/to/font-awesome/css/font-awesome.min.css')}}">
 <script>
 $(window).load(function () {
     $('.slider')._TMS({
@@ -67,7 +67,7 @@ $(window).load(function () {
           </li>
           <li><a href="{{URL('/rent')}}">Rent Room</a></li>
           <li><a href="">Tours</a></li>
-          <li><a href="{{URL('blog.html')}}{{URL('">Blog</a></li>
+          <li><a href="{{URL('blog.html')}}">Blog</a></li>
           <li><a href="{{URL('pdf')}}">PDF</a></li>
         </ul>
       </nav>
