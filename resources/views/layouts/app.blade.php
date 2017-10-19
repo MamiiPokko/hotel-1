@@ -3,21 +3,21 @@
 <head>
 <title>Journey</title>
 <meta charset="utf-8">
-<link rel="icon" href="images/favicon.ico">
-<link rel="shortcut icon" href="images/favicon.ico">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/slider.css">
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-<script src="js/jquery.js"></script>
-<script src="js/jquery-migrate-1.1.1.js"></script>
-<script src="js/superfish.js"></script>
-<script src="js/sForm.js"></script>
-<script src="js/jquery.jqtransform.js"></script>
-<script src="js/jquery.equalheights.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/tms-0.4.1.js"></script>
-<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
-<script src="js/jquery.ui.totop.js"></script>
+<link rel="icon" href="{{URL('/images/favicon.ico')}}">
+<link rel="shortcut icon" href="{{URL('/images/favicon.ico')}}">
+<link rel="stylesheet" href="{{URL('/css/style.css')}}">
+<link rel="stylesheet" href="{{URL('/css/slider.css')}}">
+<link rel="stylesheet" href="{{URL('/path/to/font-awesome/css/font-awesome.min.css')}}">
+<script src="{{URL('/js/jquery.js')}}"></script>
+<script src="{{URL('/js/jquery-migrate-1.1.1.js')}}"></script>
+<script src="{{URL('/js/superfish.js')}}"></script>
+<script src="{{URL('/js/sForm.js')}}"></script>
+<script src="{{URL('/js/jquery.jqtransform.js')}}"></script>
+<script src="{{URL('/js/jquery.equalheights.js')}}"></script>
+<script src="{{URL('/js/jquery.easing.1.3.js')}}"></script>
+<script src="{{URL('/js/tms-0.4.1.js')}}"></script>
+<script src="{{URL('/js/jquery-ui-1.10.3.custom.min.js')}}"></script>
+<script src="{{URL('/js/jquery.ui.totop.js')}}"></script>
 <script>
 $(window).load(function () {
     $('.slider')._TMS({
@@ -51,7 +51,7 @@ $(window).load(function () {
 <header>
   <div class="container_12">
     <div class="grid_12">
-      <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+      <h1><a href="index.html"><img src="{{URL('images/logo.png')}}" alt=""></a></h1>
       <div class="clear"></div>
     </div>
     <div class="menu_block">
@@ -66,9 +66,9 @@ $(window).load(function () {
             </ul>
           </li>
           <li><a href="{{URL('/rent')}}">Rent Room</a></li>
-          <li><a href="tours.html">Tours</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="{{URL('pdf')}}">PDF</a></li>
+          <li><a href="{{URL('/tours.html')}}">Tours</a></li>
+          <li><a href="{{URL('/blog.html')}}">Blog</a></li>
+          <li><a href="{{URL('/pdf')}}">PDF</a></li>
         </ul>
       </nav>
       <div class="clear"></div>
@@ -83,15 +83,15 @@ $(window).load(function () {
         <div class="slider-block">
           <div class="slider"> <a href="#" class="prev"></a><a href="#" class="next"></a>
             <ul class="items">
-              <li><img src="images/slide.jpg" alt="">
+              <li><img src="{{URL('images/slide.jpg')}}" alt="">
                 <div class="banner">
                   <div>THERE ARE PLENTY OF PLACES</div>
                   <br>
                   <span> that are worth seeing</span> </div>
               </li>
-              <li><img src="images/slide1.jpg" alt=""></li>
-              <li><img src="images/slide2.jpg" alt=""></li>
-              <li><img src="images/slide3.jpg" alt=""></li>
+              <li><img src="{{URL('images/slide1.jpg')}}" alt=""></li>
+              <li><img src="{{URL('images/slide2.jpg')}}" alt=""></li>
+              <li><img src="{{URL('images/slide3.jpg')}}" alt=""></li>
             </ul>
           </div>
         </div>
@@ -141,7 +141,7 @@ $(window).load(function () {
   <div class="container_12">
     <div class="grid_12">
       <div class="socials"> <a href="#"></a> <a href="#"></a> <a href="#"></a> <a href="#"></a> </div>
-      <div class="copy"> Journey &copy; 2045 | <a href="#">Privacy Policy</a> | Design by: <a href="http://www.templatemonster.com/">TemplateMonster.com</a> </div>
+      <div class="copy"> Journey &copy; 2045 | <a href="#">Privacy Policy</a> | Design by: <a href="{{URL('http://www.templatemonster.com/')}}">TemplateMonster.com</a> </div>
     </div>
     <div class="clear"></div>
   </div>

@@ -1,23 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
+{{URL(<!DOCTYPE html>
+<h)}}tml lang="en">
 <head>
 <title>Journey</title>
 <meta charset="utf-8">
-<link rel="icon" href="images/favicon.ico">
-<link rel="shortcut icon" href="images/favicon.ico">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/slider.css">
-<script src="js/jquery.js"></script>
-<script src="js/jquery-migrate-1.1.1.js"></script>
-<script src="js/superfish.js"></script>
-<script src="js/sForm.js"></script>
-<script src="js/jquery.jqtransform.js"></script>
-<script src="js/jquery.equalheights.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/tms-0.4.1.js"></script>
-<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
-<script src="js/jquery.ui.totop.js"></script>
-<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link rel="icon" href="{{URL('/images/favicon.ico)}}">
+<link rel="shortcut icon" href="{{URL('/images/favicon.ico)}}">
+<link rel="stylesheet" href="{{URL('/css/style.css)}}">
+<link rel="stylesheet" href="{{URL('/css/slider.css)}}">
+<script src="{{URL('/js/jquery.js)}}"></script>
+<script src="{{URL('/js/jquery-migrate-1.1.1.js)}}"></script>
+<script src="{{URL('/js/superfish.js)}}"></script>
+<script src="{{URL('/js/sForm.js)}}"></script>
+<script src="{{URL('/js/jquery.jqtransform.js)}}"></script>
+<script src="{{URL('/js/jquery.equalheights.js)}}"></script>
+<script src="{{URL('/js/jquery.easing.1.3.js)}}"></script>
+<script src="{{URL('/js/tms-0.4.1.js)}}"></script>
+<script src="{{URL('/js/jquery-ui-1.10.3.custom.min.js)}}"></script>
+<script src="{{URL('/js/jquery.ui.totop.js)}}"></script>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css)}}">
 <script>
 $(window).load(function () {
     $('.slider')._TMS({
@@ -51,14 +51,14 @@ $(window).load(function () {
 <header>
   <div class="container_12">
     <div class="grid_12">
-      <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+      <h1><a href="index.html"><img src="{{URL('images/logo.png')}}" alt=""></a></h1>
       <div class="clear"></div>
     </div>
     <div class="menu_block">
       <nav>
         <ul class="sf-menu">
           <li class="current"><a href="{{URL('/welcome')}}">Home</a></li>
-          <li class="with_ul"><a href="about.html">About</a>
+          <li class="with_ul"><a href="{{URL('/about.html')}}">About</a>
             <ul>
               <li><a href="#">Agency</a></li>
               <li><a href="#">News</a></li>
@@ -67,7 +67,7 @@ $(window).load(function () {
           </li>
           <li><a href="{{URL('/rent')}}">Rent Room</a></li>
           <li><a href="">Tours</a></li>
-          <li><a href="blog.html">Blog</a></li>
+          <li><a href="{{URL('blog.html')}}{{URL('">Blog</a></li>
           <li><a href="{{URL('pdf')}}">PDF</a></li>
         </ul>
       </nav>
@@ -83,15 +83,15 @@ $(window).load(function () {
         <div class="slider-block">
           <div class="slider"> <a href="#" class="prev"></a><a href="#" class="next"></a>
             <ul class="items">
-              <li><img src="images/slide.jpg" alt="">
+              <li><img src="{{URL('images/slide.jpg')}}" alt="">
                 <div class="banner">
                   <div>THERE ARE PLENTY OF PLACES</div>
                   <br>
                   <span> that are worth seeing</span> </div>
               </li>
-              <li><img src="images/slide1.jpg" alt=""></li>
-              <li><img src="images/slide2.jpg" alt=""></li>
-              <li><img src="images/slide3.jpg" alt=""></li>
+              <li><img src="{{URL('images/slide1.jpg')}}" alt=""></li>
+              <li><img src="{{URL('images/slide2.jpg')}}" alt=""></li>
+              <li><img src="{{URL('images/slide3.jpg')}}" alt=""></li>
             </ul>
           </div>
         </div>
@@ -106,7 +106,7 @@ $(window).load(function () {
       <div class="boxes">
         <div class="grid_4">
           <figure>
-            <div><img src="images/page1_img1.jpg" alt=""></div>
+            <div><img src="{{URL('images/page1_img1.jpg')}}" alt=""></div>
             <figcaption>
               <h3>Venice</h3>
               Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu velite a rew qw vehicula lacinia arcufasec ro. Aenean lacinia ucibusy fase tortor ut feugiat. Rabi tur oliti aliquam bibendum olor quis malesuadivamu. <a href="#" class="btn">Details</a> </figcaption>
@@ -114,7 +114,7 @@ $(window).load(function () {
         </div>
         <div class="grid_4">
           <figure>
-            <div><img src="images/page1_img2.jpg" alt=""></div>
+            <div><img src="{{URL('images/page1_img2.jpg')}}" alt=""></div>
             <figcaption>
               <h3>New York</h3>
               Psum dolor sit ametylo gerto consectetur ertori hykill holit adipiscing lity. Donecto rtopil osueremo kollit asec emmodem geteq tiloli. Aliquam dapibus neclol nami wertoli elittro eget vulpoli no
@@ -123,7 +123,7 @@ $(window).load(function () {
         </div>
         <div class="grid_4">
           <figure>
-            <div><img src="images/page1_img3.jpg" alt=""></div>
+            <div><img src="{{URL('images/page1_img3.jpg')}}" alt=""></div>
             <figcaption>
               <h3>Paris</h3>
               Lorem ipsum dolor site geril amet, consectetur cing eliti. Suspendisse nulla leo mew dignissim eu velite a rew qw vehicula lacinia arcufasec ro. Aenean lacinia ucibusy fase tortor ut feugiat. Rabi tur oliti aliquam bibendum olor quis malesuadivamu. <a href="#" class="btn">Details</a> </figcaption>
@@ -139,7 +139,7 @@ $(window).load(function () {
             <li><a href="#tabs-3">All-Inclusive</a></li>
           </ul>
           <div class="clear"></div>
-          <div class="tab_cont" id="tabs-1"> <img src="images/page1_img4.jpg" alt="">
+          <div class="tab_cont" id="tabs-1"> <img src="{{URL('images/page1_img4.jpg')}}" alt="">
             <div class="extra_wrapper">
               <div class="text1">Rem psum dr sit amet. </div>
               <p class="style1"><a class="col2" href="#">Click here</a> for more info about this free website template created by TemplateMonster.com </p>
@@ -147,7 +147,7 @@ $(window).load(function () {
               <div class="clear "></div>
             </div>
             <div class="clear cl1"></div>
-            <img src="images/page1_img5.jpg" alt="">
+            <img src="{{URL('images/page1_img5.jpg')}}" alt="">
             <div class="extra_wrapper">
               <div class="text1 tx1">Hem psuf abr sit dmety. </div>
               Julla facilisi. Ut ut tincidunt lacus, ut auctor libero. Fuis ommodo vel ipsum sed volutpat. Phasellus a sagittis dui, eu adipiscinget nisi. Vestibulum eu eleifend metus, ut ornare nibh. Vestibulumul tincidunt interdum libero vitae faucibus. Gonec dapibus feugiate auctor. In ac dapibus lacus. Maecenas in pharetra mim asellus a sagittis dui, eu adipiscinget nisi.
@@ -156,7 +156,7 @@ $(window).load(function () {
               <div class="clear "></div>
             </div>
           </div>
-          <div class="tab_cont" id="tabs-2"> <img src="images/page1_img4.jpg" alt="">
+          <div class="tab_cont" id="tabs-2"> <img src="{{URL('images/page1_img4.jpg')}}" alt="">
             <div class="extra_wrapper">
               <div class="text1">Rem psum dr sit amet. </div>
               <p class="style1">Nulla facilisi. Ut ut tincidunt lacus, ut auctor libero. Duis ommodo vel ipsum sed volutpat. Phasellus a sagittis dui, eu adipiscinget nisiestibulum eutro.</p>
@@ -164,7 +164,7 @@ $(window).load(function () {
               <div class="clear "></div>
             </div>
             <div class="clear cl1"></div>
-            <img src="images/page1_img5.jpg" alt="">
+            <img src="{{URL('images/page1_img5.jpg')}}" alt="">
             <div class="extra_wrapper">
               <div class="text1 tx1">Hem psuf abr sit dmety. </div>
               Julla facilisi. Ut ut tincidunt lacus, ut auctor libero. Fuis ommodo vel ipsum sed volutpat. Phasellus a sagittis dui, eu adipiscinget nisi. Vestibulum eu eleifend metus, ut ornare nibh. Vestibulumul tincidunt interdum libero vitae faucibus. Gonec dapibus feugiate auctor. In ac dapibus lacus. Maecenas in pharetra mim asellus a sagittis dui, eu adipiscinget nisi.
@@ -173,7 +173,7 @@ $(window).load(function () {
               <div class="clear "></div>
             </div>
           </div>
-          <div class="tab_cont" id="tabs-3"> <img src="images/page1_img4.jpg" alt="">
+          <div class="tab_cont" id="tabs-3"> <img src="{{URL('images/page1_img4.jpg')}}" alt="">
             <div class="extra_wrapper">
               <div class="text1">Rem psum dr sit amet. </div>
               <p class="style1">Nulla facilisi. Ut ut tincidunt lacus, ut auctor libero. Duis ommodo vel ipsum sed volutpat. Phasellus a sagittis dui, eu adipiscinget nisiestibulum eutro.</p>
@@ -181,7 +181,7 @@ $(window).load(function () {
               <div class="clear "></div>
             </div>
             <div class="clear cl1"></div>
-            <img src="images/page1_img5.jpg" alt="">
+            <img src="{{URL('images/page1_img5.jpg')}}" alt="">
             <div class="extra_wrapper">
               <div class="text1 tx1">Hem psuf abr sit dmety. </div>
               Julla facilisi. Ut ut tincidunt lacus, ut auctor libero. Fuis ommodo vel ipsum sed volutpat. Phasellus a sagittis dui, eu adipiscinget nisi. Vestibulum eu eleifend metus, ut ornare nibh. Vestibulumul tincidunt interdum libero vitae faucibus. Gonec dapibus feugiate auctor. In ac dapibus lacus. Maecenas in pharetra mim asellus a sagittis dui, eu adipiscinget nisi.

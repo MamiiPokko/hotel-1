@@ -20,6 +20,7 @@ Route::get('/', function () {
 Route::get('/rent', 'RentController@getrent');
 Route::get('/welcome', 'RentController@getwelcome');
 Route::get('/booking', 'RentController@getbooking');
+Route::get('/result/{id}', 'RentController@getresult');
 
 //pdf
 Route::get('pdf','PDFController@pdf');
@@ -34,3 +35,4 @@ Route::get('check-connect',function(){
  }
  
 });
+

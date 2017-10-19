@@ -47,7 +47,9 @@ app.post('/bookingroom', function(req, res) {
 		function (error, results, feilds){
 			if (error) throw error;
 			console.log('Insert Complete')
-			res.redirect('http://localhost:8080/result.blade.php')
+			console.log(JSON.stringify(results.insertId))
+			console.log(feilds)
+			res.redirect('http://localhost/hotel-1/public/result/'+JSON.stringify(results.insertId))
 		});
 })
 
