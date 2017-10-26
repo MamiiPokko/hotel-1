@@ -5,9 +5,9 @@
 			<td>สินค้า</td>
 			<td>บ้านเลขที่</td>
 		</tr>
-
+		@foreach($Customers as $c)
 		<tr>
-			<td>{{$Orders}}</td>
+			<td>{{$c->customer_id}}</td>
 		</tr>
 
 	</table>
