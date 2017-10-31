@@ -65,7 +65,7 @@ $(window).load(function () {
               <li><a href="#">Team</a></li>
             </ul>
           </li>
-          <li><a href="{{URL('/rent')}}">Rent Room</a></li>
+          <li><a href="{{URL('/rent')}}">Rent</a></li>
           <li><a href="{{URL('/tours.html')}}">Tours</a></li>
           <li><a href="{{URL('/blog.html')}}">Blog</a></li>
           <li><a href="{{URL('/pdf')}}">PDF</a></li>

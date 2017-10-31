@@ -9,7 +9,6 @@
     padding: 10px;
 }
 </style>
-	
 
 <div class="center">
 <div class="room">
