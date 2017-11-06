@@ -9,6 +9,8 @@ var connection = mysql.createConnection({
   password : '',
   database : 'blog'
 });
+const request = require('request');
+const token = 'GyYfc9kXm5d5QchtZnLLi4nj8GPeHOUTECb56Rdorcs';
 
 app.use(cors())
 
@@ -43,13 +45,30 @@ app.post('/createuser', function (req, res) {
 app.post('/bookingroom', function(req, res) {
 	console.log('income request')
 	console.log(req.body)
+	const _selfRes = res
+	const newMessage = `name is ${req.body.name} surname is ${req.body.surname} ที่อยู่ : ${req.body.address} ` 
 	connection.query('INSERT INTO CUSTOMERS (name,surname,address,email,tel) VALUES ("'+req.body.name+'","'+req.body.surname+'","'+req.body.address+'","'+req.body.email+'","'+req.body.tel+'")',
 		function (error, results, feilds){
 			if (error) throw error;
-			console.log('Insert Complete')
-			console.log(JSON.stringify(results.insertId))
-			console.log(feilds)
-			res.redirect('http://localhost/hotel-1/public/result/'+JSON.stringify(results.insertId))
+			else
+			{
+				const _selfResults = results
+				//console.log(_selfResults)
+				request({
+				       method: 'POST',
+				       uri: 'https://notify-api.line.me/api/notify',
+				       headers: {
+				         'Content-Type': 'application/x-www-form-urlencoded',
+				       },
+				       'auth': {
+				         'bearer': token
+				       },form: {
+				         message: newMessage,
+				       }
+				}, function(err,httpResponse,body){
+				    _selfRes.redirect('http://localhost/hotel-1/public/result/'+JSON.stringify(_selfResults.insertId))
+				})
+			}
 		});
 })
 
