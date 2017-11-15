@@ -46,7 +46,9 @@ app.post('/bookingroom', function(req, res) {
 	console.log('income request')
 	console.log(req.body)
 	const _selfRes = res
-	const newMessage = `name is ${req.body.name} surname is ${req.body.surname} ที่อยู่ : ${req.body.address} ` 
+	const newMessage = ` ชื่อ : ${req.body.name}  นามสกุล : ${req.body.surname}  เบอร์ติดต่อกลับ : ${req.body.tel} ` 
+						
+						
 	connection.query('INSERT INTO CUSTOMERS (name,surname,address,email,tel) VALUES ("'+req.body.name+'","'+req.body.surname+'","'+req.body.address+'","'+req.body.email+'","'+req.body.tel+'")',
 		function (error, results, feilds){
 			if (error) throw error;

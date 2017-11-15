@@ -57,7 +57,7 @@ $(window).load(function () {
     <div class="menu_block">
       <nav>
         <ul class="sf-menu">
-          <li class="current"><a href="index.html">Home</a></li>
+          <li class="current"><a href="{{URL('/welcome')}}">Home</a></li>
           <li class="with_ul"><a href="about.html">About</a>
             <ul>
               <li><a href="#">Agency</a></li>
@@ -76,35 +76,11 @@ $(window).load(function () {
     <div class="clear"></div>
   </div>
 </header>
+
 <div class="main">
-  <div class="container_12">
-    <div class="grid_12">
-      <div class="slider-relative">
-        <div class="slider-block">
-          <div class="slider"> <a href="#" class="prev"></a><a href="#" class="next"></a>
-            <ul class="items">
-              <li><img src="{{URL('images/slide.jpg')}}" alt="">
-                <div class="banner">
-                  <div>THERE ARE PLENTY OF PLACES</div>
-                  <br>
-                  <span> that are worth seeing</span> </div>
-              </li>
-              <li><img src="{{URL('images/slide1.jpg')}}" alt=""></li>
-              <li><img src="{{URL('images/slide2.jpg')}}" alt=""></li>
-              <li><img src="{{URL('images/slide3.jpg')}}" alt=""></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="content">
-    <div class="container_12">
-      <div class="grid_12">
-      </div>
-        <div class="clear"></div>
-      </div>
-       @yield('content')
+@yield('content')
+
+
    
       <div class="clear"></div>
     </div>

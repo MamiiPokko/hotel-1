@@ -23,7 +23,7 @@ Route::get('/booking', 'RentController@getbooking');
 Route::get('/result/{id}', 'RentController@getresult');
 
 //pdf
-Route::get('pdf','PDFController@pdf');
+Route::get('/pdf/{id}','PDFController@pdf');
 
 
 Route::get('check-connect',function(){

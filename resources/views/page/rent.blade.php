@@ -9,19 +9,24 @@
     padding: 10px;
 }
 </style>
+  <div class="content">
+    <div class="container_12">
+        <h3>ROOM TYPE</h3>
 
 <div class="center">
 <div class="room">
     <div class="room-image-holder">
-        <img src="images/photo.jpg">
+        <img src="images/hotel1.jpg">
             <div class="room-gallery-link"><i class="ficon ficon-20 ficon-map-attraction"></div>
-        </div>
-            <div class="room-info">
-                <div class="room-name-with-ellipsis">
-                    <div>พูลวิลลา วิวสวน (Pool Villa Garden view)</div>
-                </div>
-                <div class="room-amenities">
-                    <ul class="room-amenities-list">
+        <div id="tabs">
+          <ul>
+            <li><a href="#tabs-1">Deluxe Room</a></li>
+          </ul>
+        <div class="clear"></div>
+            <div class="tab_cont" id="tabs-1"> <img src="images/hotelpic.jpg" alt="">
+            <div class="extra_wrapper">
+              <div class="text1">Anantara Riverside Bangkok Resort</div>
+                <ul class="room-amenities-list">
                         <li class="room-amenitylist-item">
                             <i class="ficon ficon-20 ficon-views"></i>
                             <span>วิว: เมือง</span>
@@ -35,14 +40,14 @@
                                 <span>2 เตียงเดี่ยว หรือ 1 เตียงใหญ่</span>
                             </li>
                         </ul>
-                        <div class="room-prompt-for-dates">
-                            <a href="{{URL('/booking')}}">
+                        <a href="{{URL('/booking')}}">
                         <button type="button" class="btn btn-warning"><i class="fa fa-pencil" aria-hidden="true"></i>Booking</button></a>
-                        </div>
-                    </div>
-                </div>
             </div>
+          </div>
+      </div>
 </div>
+
+
 
 
  

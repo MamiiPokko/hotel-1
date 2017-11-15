@@ -4,15 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Orders;
-use App\Customers;
+use App\Customer;
 use PDF;
 
 class PDFController extends Controller
 {
-    public function pdf()
+    public function pdf($id)
     {
-    	$customers = "asdfasdf";
-    	$pdf = PDF::loadview('pdf',['Custoomers' => $customers]);
+    	$customers = Customer::find($id);
+    	$pdf = PDF::loadview('pdf',['Customers' => $customers]);
     	return @$pdf->stream();
     }
 }
