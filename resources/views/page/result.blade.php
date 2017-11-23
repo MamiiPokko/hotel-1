@@ -10,7 +10,6 @@
 
 <div class="w3-container">
   <h2>การจองห้องพัก</h2>
-  <p>aaaa</p>
 
 <table class="w3-table w3-bordered">
   <tr>

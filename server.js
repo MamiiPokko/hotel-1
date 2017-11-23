@@ -29,19 +29,6 @@ app.get('/', function (req, res) {
 	});
 })
 
-app.post('/createuser', function (req, res) {
-	console.log('income request')
-	console.log(req.body)
-	connection.query('INSERT INTO USERS (name,email,password) VALUES ("'+req.body.name+'","'+req.body.email+'","'+req.body.password+'")', function (error, results, fields) {
-	  if (error) throw error;
-	  // connected!
-	  console.log('Insert Complete')
-	  //res.send(JSON.stringify(results))
-	  res.redirect('http://localhost:8080/user.html')
-	}); 
-})
-
-
 app.post('/bookingroom', function(req, res) {
 	console.log('income request')
 	console.log(req.body)
